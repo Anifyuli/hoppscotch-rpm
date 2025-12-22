@@ -71,8 +71,6 @@ mkdir -p %{buildroot}%{_bindir}
 ln -s ../lib/node_modules/@hoppscotch/cli/bin/hopp.js %{buildroot}%{_bindir}/hopp
 
 %check
-#readlink %{buildroot}%{_bindir}/hopp
-#test -d %{buildroot}%{nodejs_sitelib}/@hoppscotch/cli/node_modules/chalk || exit 1
 test -f %{buildroot}%{nodejs_sitelib}/@hoppscotch/cli/bin/hopp.js
 
 %files
