@@ -10,7 +10,7 @@ License:        MIT
 URL:            https://hoppscotch.io/
 Source0:        https://github.com/hoppscotch/releases/releases/download/v%{appver}-%{apprel}/Hoppscotch_linux_x64.deb
 
-BuildArch:      x86_64
+ExclusiveArch: x86_64
 
 # Dependencies based on Arch Linux PKGBUILD
 Requires:       cairo
