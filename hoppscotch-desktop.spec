@@ -1,4 +1,4 @@
-%global appver  25.11.2
+%global appver  25.12.0
 %global apprel  0
 
 Name:           hoppscotch-desktop
@@ -100,6 +100,9 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &> /dev/null || :
 %{_datadir}/icons/hicolor/256x256@2/apps/hoppscotch-desktop.png
 
 %changelog
+* Tue Dec 23 2025 Anifyuliansyah <anifyuli007@outlook.co.id> 25.12.0-1
+- Bump version to 25.12.0
+
 * Sun Dec 21 2025 Anifyuliansyah <anifyuli007@outlook.co.id> - 25.11.2-0
 - Initial package for Fedora
 - Added WebKit workaround wrapper for Wayland compatibility
