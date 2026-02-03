@@ -7,7 +7,7 @@
 
 Name:           hoppscotch-cli
 Version:        %{appversion}
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        CLI to run Hoppscotch Test Scripts in CI environments
 
 License:        MIT
@@ -81,6 +81,9 @@ test -f %{buildroot}%{nodejs_sitelib}/@hoppscotch/cli/bin/hopp.js
 %{_bindir}/hopp
 
 %changelog
+* Tue Feb 03 2026 Moh. Anif Yuliansyah <anifyuli007@outlook.co.id> - 0.30.0-2
+- Change NodeJS required deps
+
 * Sun Dec 21 2025 Moh. Anif Yuliansyah <anifyuli007@outlook.co.id> - 0.30.0-1
 - Initial RPM build from Hoppscotch %{gittag}
 - Built using pnpm workspace and deploy --legacy
