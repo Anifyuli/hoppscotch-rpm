@@ -28,7 +28,8 @@ BuildRequires:  zlib-devel
 BuildRequires:  brotli-devel
 BuildRequires:  libuv-devel
 
-Requires:       nodejs >= 22
+Requires: /usr/bin/node
+Requires: (nodejs >= 22 or nodejs-24)
 
 %description
 A CLI to run Hoppscotch Test Scripts in CI environments.
