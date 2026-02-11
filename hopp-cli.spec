@@ -1,13 +1,13 @@
 %global debug_package %{nil}
 %global gittag 2025.11.0
-%global appversion 0.30.0
+%global appversion 0.30.2
 
 # Fallback if nodejs macros are not present
 %{!?nodejs_sitelib:%global nodejs_sitelib %{_prefix}/lib/node_modules}
 
 Name:           hoppscotch-cli
 Version:        %{appversion}
-Release:        2%{?dist}
+Release:        1%{?dist}
 Summary:        CLI to run Hoppscotch Test Scripts in CI environments
 
 License:        MIT
