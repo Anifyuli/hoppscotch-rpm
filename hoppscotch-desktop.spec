@@ -1,4 +1,4 @@
-%global appver  25.12.1
+%global appver  2026.1.1
 %global apprel  0
 
 Name:           hoppscotch-desktop
