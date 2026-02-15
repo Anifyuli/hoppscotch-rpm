@@ -1,4 +1,4 @@
-%global appver  26.1.0
+%global appver  26.1.1
 %global apprel  0
 
 Name:           hoppscotch-desktop
@@ -100,6 +100,9 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &> /dev/null || :
 %{_datadir}/icons/hicolor/256x256@2/apps/hoppscotch-desktop.png
 
 %changelog
+* Sun Feb 15 2026 Anifyuliansyah <anifyuli007@outlook.co.id> 26.1.1-0
+- Bump version to 26.1.1
+
 * Sun Jan 18 2026 Anifyuliansyah <anifyuli007@outlook.co.id> 25.12.1-1
 - Bump version to 25.12.1
 
